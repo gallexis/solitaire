@@ -1,0 +1,10 @@
+[package]
+name = "solitaire"
+version = "0.1.0"
+authors = ["Alexis Gallèpe <alexis.gallepe@gmail.com>"]
+
+[dependencies]
+rand = "0.6.0-pre.1"
+
+[profile.release]
+debug = true
